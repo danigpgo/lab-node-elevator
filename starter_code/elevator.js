@@ -1,10 +1,10 @@
 class Elevator {
   constructor(){
-    this.interval = undefined;
-    this.direction  = "none";
     this.floor      = 0;
     this.MAXFLOOR   = 10;
     this.requests   = [];
+    this.interval = undefined;
+    this.direction  = "none";
   }
 
   start() {
